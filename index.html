@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SOLICITUD PARA EL SERVICIO DE PRECURSOR AUXILIAR</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.jpg" class="imgLogo" />
+
+      <h3 class="formulario__titulo">SOLICITUD PARA EL SERVICIO DE PRECURSOR AUXILIAR</h3>
+      <h4 class="formulario__subtitulo">Aplique por WhatsApp para el precursorado auxiliar</h4>
+
+    <p class="formulario__parrafo">
+      Debido a mi amor a Jehová y mi deseo de ayudar al prójimo a aprender acerca deél y sus amorosos propósitos, 
+      quisiera aumentar mi participación en el servicio del campo siendo precursor auxiliar durante el período indicado abajo:
+    </p>
+
+      <label for="mes" class="formulario__label">El (los) mes(es) de</label>
+      <input
+        id="mes"
+        type="text"
+        class="formulario__input"
+        placeholder="El (los) mes(es) de"
+      />
+
+      <label for="decontinuo" class="formulario__label"
+      ><br>Si desea ser precursor auxiliar de continuo hasta nuevo aviso, seleccione "Si" (Respuesta opcional).</label
+    >
+      <select id="decontinuo" name="decontinuo" class="formulario__input">
+        <option></option>
+        <option>Si</option>
+      </select>
+
+      <p class="formulario__parrafo">
+        Gozo de una buena reputación moral y tengo buenos hábitos. He hecho planes para satisfacer
+        el requisito de horas. (Vea Nuestro Ministerio del Reino de junio de 2013, página 2).
+      </p>
+
+
+      <label for="fecha" class="formulario__label"
+        >Fecha</label
+      >
+      <input
+        id="fecha"
+        type="date"
+        class="formulario__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      />
+      
+      <label for="nombre" class="formulario__label"
+        >Nombre</label>
+
+      <input
+      id="nombre"
+      type="text"
+      class="formulario__input"
+      placeholder="Nombre"
+    />
+
+    <label for="apellido" class="formulario__label"
+    >Apellido</label>
+
+  <input
+  id="apellido"
+  type="text"
+  class="formulario__input"
+  placeholder="Apellido"
+/>
+
+    <p class="formulario__parrafo">
+    NOTA: Después de llenar esta solicitud, presione el botón “APLICAR”. La aplicación será enviada al Comité de servicio. 
+    </p>
+    
+    <div id="respuesta"></div>
+
+    <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+  </form>
+  <script src="js/form.js"></script>
+</body>
+</html>
